@@ -47,7 +47,7 @@ public class SessionDetailViewModel extends BaseObservable implements ViewModel 
     private int sessionThemeResId;
 
     @StringRes
-    private int languageResId;
+    private int languageResId = R.string.lang_en;
 
     private String sessionTimeRange;
 
